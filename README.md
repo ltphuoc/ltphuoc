@@ -21,3 +21,5 @@
 <h3 align="left">Certification:</h3>
   <a href="https://coursera.org/share/59ae86369f982683ee640d424ecff113" target="blank">Web Design for Everybody: Basics of Web Development & Coding</a>
 
+<h3 align="left">Top langs:</h3>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ltphuoc&theme=tokyonight)
