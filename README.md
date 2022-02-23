@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Le Thanh Phuoc</h1>
 <h3 align="center">I'm from VietNam, I'm studying Software Engineering at FPTU</h3>
 
+- 🌱 I’m currently learning Web Development and other programming languages
 - 📫 How to reach me **thanhphuoc.se@gmail.com**
-
 - ⚡ Fun fact **I think I play soccer very well**
 
 <h3 align="left">Connect with me:</h3>
