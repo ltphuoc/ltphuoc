@@ -4,7 +4,7 @@
 
 - 🌱 I’m currently learning Web Development and other programming languages
 - 📫 How to reach me **thanhphuoc.se@gmail.com**
-- ⚡ Fun fact **I love Beer(🍻), Coding(💻), Traveling(🌍)**
+- ⚡ Fun fact **I love Beer(🍻), Soccer(⚽), Coding(💻), Traveling(🌍)**
 
 <!-- <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> -->
 <h3 align="left">Connect with me:</h3>
@@ -21,6 +21,6 @@
 <h3 align="left">Certification:</h3>
   <a href="https://coursera.org/share/59ae86369f982683ee640d424ecff113" target="blank">Web Design for Everybody: Basics of Web Development & Coding</a>
 
-<h3 align="left">Top langs:</h3>
+<h3 align="left">My Github Stats:</h3>
   
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ltphuoc&theme=tokyonight)
