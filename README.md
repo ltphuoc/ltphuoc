@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning Web Development and other programming languages
 - 📫 How to reach me **thanhphuoc.se@gmail.com**
-- ⚡ Fun fact **I think I play soccer very well**
+- ⚡ Fun fact **I love Beer(🍻), Coding(💻), Traveling(🌍)**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
