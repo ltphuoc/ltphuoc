@@ -22,14 +22,19 @@
 <h3 align="left">📚 Certification:</h3>
   <details>
   <summary>Soft Skills (Click to expand)</summary>
-  </br>
-  * <a href="https://coursera.org/share/0281422da2038c9f733b24e62348224d" target="blank">Academic Skills for University Success</a>
+<p align="left">
+  <li> <a href="https://coursera.org/share/0281422da2038c9f733b24e62348224d" target="blank">Academic Skills for University Success</a></li>
+  <li><a href="https://coursera.org/share/743e9cdc2425abb4c72f07479932b39d" target="blank">Software Development Lifecycle</a></li>
+</p>
+  
   </details>
   <details>
   <summary>Hard Skills (Click to expand)</summary>
-  </br>
-  * <a href="https://coursera.org/share/ea371996468a681b9e81935f3f4847f5" target="blank">Computer Communications</a>
-  * <a href="https://coursera.org/share/59ae86369f982683ee640d424ecff113" target="blank">Web Design for Everybody: Basics of Web Development & Coding</a>
+<p align="left">
+  <li> <a href="https://coursera.org/share/ea371996468a681b9e81935f3f4847f5" target="blank">Computer Communications</a></li> 
+  <li> <a href="https://coursera.org/share/59ae86369f982683ee640d424ecff113" target="blank">Web Design for Everybody: Basics of Web Development & Coding</a></li>
+</p>
+  
   </details>
 
 <h3 align="left">⚙️ My Github Stats:</h3>
