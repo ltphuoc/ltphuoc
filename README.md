@@ -17,6 +17,8 @@
   <a href="mailto:thanhphuoc.se@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-E4405F?style=for-the-badge&logo=gmail&logoColor=white" alt="ltphuoc"/></a>
   <a href="https://www.facebook.com/thanhphuoc259" target="blank"><img align="center" src="https://img.shields.io/badge/Facebook-1DA1F2?style=for-the-badge&logo=facebook&logoColor=white" alt="ltphuoc"/></a>
  <a href="https://www.instagram.com/ltphuoc/" target="blank"><img align="center" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="ltphuoc"/></a>
+  <a href="" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="ltphuoc"/></a>
+ 
 </p>  
 
 <h3 align="left">Languages and Tools:</h3>
