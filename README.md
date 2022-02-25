@@ -2,7 +2,7 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <h3 align="center">I'm from VietNam, I'm studying Software Engineering at FPTU</h3>
 
-- 🌱 I’m currently learning Web Development and other programming languages
+- :man: I’m currently learning Web Development and other programming languages
 - 📫 How to reach me **thanhphuoc.se@gmail.com**
 - ⚡ Fun fact **I love Beer(🍻), Soccer(⚽), Coding(💻), Traveling(🌍)**
 
