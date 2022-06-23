@@ -1,0 +1,95 @@
+{
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "explorer.confirmDelete": false,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.startupEditor": "none",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.mouseWheelZoom": true,
+  "editor.fontFamily": "Fira Code,JetBrains Mono,Source Code Pro,SF Mono,Roboto Mono, Arial",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "markdown-preview-enhanced.liveUpdate": false,
+  "settingsSync.ignoredSettings": [
+    "editor.fontSize",
+    "editor.inlayHints.fontSize"
+  ],
+  "editor.fontSize": 16, // 14 inch: 16
+  "editor.inlayHints.fontSize": 13,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.fontWeight": "normal",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "editor.inlineSuggest.enabled": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 100,
+  "editor.letterSpacing": 0.3,
+  "editor.lineHeight": 30,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.suggest.preview": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true,
+    "typescriptreact": true
+  },
+  "tabnine.experimentalAutoImports": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "editor.cursorBlinking": "expand"
+}
