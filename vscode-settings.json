@@ -1,17 +1,18 @@
 {
   "editor.fontLigatures": true,
   "terminal.integrated.fontFamily": "monospace",
-  "explorer.confirmDelete": false,
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.fontWeightBold": "normal",
   "files.exclude": {
     "**/.classpath": true,
     "**/.project": true,
     "**/.settings": true,
-    "**/.factorypath": true
+    "**/.factorypath": true,
+    "**/node_modules": true
   },
   "gitlens.advanced.messages": {
     "suppressGitMissingWarning": true
   },
-  "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.startupEditor": "none",
@@ -49,26 +50,42 @@
   "editor.guides.bracketPairs": "active",
   "editor.tabSize": 2,
   "editor.tabCompletion": "on",
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.mouseWheelZoom": true,
-  "editor.fontFamily": "Fira Code,JetBrains Mono,Source Code Pro,SF Mono,Roboto Mono, Arial",
+  "editor.fontFamily": "Fira Code,JetBrains Mono, Source Code Pro, SF Mono, Roboto Mono, Arial",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "markdown-preview-enhanced.liveUpdate": false,
   "settingsSync.ignoredSettings": [
     "editor.fontSize",
     "editor.inlayHints.fontSize"
   ],
-  "editor.fontSize": 16, // 14 inch: 16
-  "editor.inlayHints.fontSize": 13,
   "emmet.triggerExpansionOnTab": true,
+  "editor.fontSize": 16,
   "editor.fontWeight": "normal",
-  "workbench.colorTheme": "One Dark Pro Darker",
   "editor.inlineSuggest.enabled": true,
+  //
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.insertSpaces": false,
+  "editor.hover.enabled": true,
+  "editor.renderControlCharacters": false,
+  "breadcrumbs.enabled": false,
+  "explorer.compactFolders": false,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.suggestSelection": "first",
+  "files.trimTrailingWhitespace": true,
+  "explorer.confirmDelete": true,
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.gpuAcceleration": "on",
+  //
   "workbench.editor.untitled.hint": "hidden",
   "editor.wordWrap": "on",
   "editor.wordWrapColumn": 100,
   "editor.letterSpacing": 0.3,
   "editor.lineHeight": 30,
+  "editor.cursorBlinking": "expand",
+  "editor.inlayHints.fontSize": 13,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "vue-html": "html"
@@ -80,7 +97,9 @@
     "yaml": false,
     "plaintext": false,
     "markdown": true,
-    "typescriptreact": true
+    "typescriptreact": true,
+    "typescript": true,
+    "javascriptreact": true
   },
   "tabnine.experimentalAutoImports": true,
   "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
@@ -91,5 +110,19 @@
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "javascript.inlayHints.parameterTypes.enabled": true,
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "editor.cursorBlinking": "expand"
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": false,
+  "thunder-client.codeSnippetLanguage": "cs-httpclient",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "editor.dragAndDrop": false,
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  "npm-intellisense.importES6": true,
+  "npm-intellisense.importQuotes": "'",
+  "npm-intellisense.importLinebreak": ";\r\n",
+  "npm-intellisense.importDeclarationType": "const",
+  // "npm-intellisense.scanDevDependencies": true,
+  "htmltagwrap.tag": " ",
+  "htmltagwrap.autoDeselectClosingTag": true,
+  "editor.stickyScroll.enabled": true
 }
