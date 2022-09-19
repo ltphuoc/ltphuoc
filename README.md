@@ -53,3 +53,6 @@
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ltphuoc&layout=compact&langs_count=8&theme=tokyonight"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ltphuoc&show_icons=true&locale=en&theme=tokyonight"/>
 </a>
+  
+a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/rebelchris/rebelchris/blob/master/devcard.svg" width="400" alt="Phuoclt dev's card"/></a>  
+ 
