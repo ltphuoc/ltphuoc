@@ -54,4 +54,7 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ltphuoc&show_icons=true&locale=en&theme=tokyonight"/>
 </a>
   
-<a href="https://app.daily.dev/phuoclt"><img src="https://github.com/ltphuoc/ltphuoc/blob/master/devcard.svg" width="400" alt="Le Thanh Phuoc's Dev Card"/></a>
+  <p align="center">
+    <a  href="https://app.daily.dev/phuoclt"><img src="https://github.com/ltphuoc/ltphuoc/blob/main/devcard.svg" width="400" alt="Le Thanh Phuoc's Dev Card"/></a> 
+  </p> 
+
