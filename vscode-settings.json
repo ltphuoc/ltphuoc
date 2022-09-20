@@ -58,7 +58,6 @@
     "editor.inlayHints.fontSize"
   ],
   "emmet.triggerExpansionOnTab": true,
-  "editor.fontSize": 16,
   "editor.fontWeight": "normal",
   "editor.inlineSuggest.enabled": true,
   //
@@ -82,10 +81,8 @@
   "workbench.editor.untitled.hint": "hidden",
   "editor.wordWrap": "on",
   "editor.wordWrapColumn": 100,
-  "editor.letterSpacing": 0.3,
   "editor.lineHeight": 30,
   "editor.cursorBlinking": "expand",
-  "editor.inlayHints.fontSize": 13,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "vue-html": "html"
@@ -124,5 +121,6 @@
   // "npm-intellisense.scanDevDependencies": true,
   "htmltagwrap.tag": " ",
   "htmltagwrap.autoDeselectClosingTag": true,
-  "editor.stickyScroll.enabled": true
+  "editor.stickyScroll.enabled": true,
+  "editor.fontSize": 16
 }
