@@ -1,94 +1,106 @@
 {
+  // Editor
+  "editor.fontSize": 16,
   "editor.fontLigatures": true,
-  "terminal.integrated.fontFamily": "monospace",
-  "terminal.integrated.fontWeight": "300",
-  "terminal.integrated.fontWeightBold": "normal",
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true,
-    "**/node_modules": true
-  },
-  "gitlens.advanced.messages": {
-    "suppressGitMissingWarning": true
-  },
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.startupEditor": "none",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  },
-  "editor.formatOnSave": true,
-  "files.autoSave": "onFocusChange",
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
   "editor.tabSize": 2,
   "editor.tabCompletion": "on",
-  "editor.fontFamily": "Fira Code,JetBrains Mono, Source Code Pro, SF Mono, Roboto Mono, Arial",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "markdown-preview-enhanced.liveUpdate": false,
-  "settingsSync.ignoredSettings": [
-    "editor.fontSize",
-    "editor.inlayHints.fontSize"
-  ],
-  "emmet.triggerExpansionOnTab": true,
+  "editor.fontFamily": "Fira Code, JetBrains Mono, Source Code Pro, SF Mono, Roboto Mono, Arial",
   "editor.fontWeight": "normal",
   "editor.inlineSuggest.enabled": true,
-  //
-  "editor.minimap.enabled": false,
-  "editor.renderWhitespace": "none",
-  "editor.insertSpaces": false,
+  "editor.minimap.enabled": true,
   "editor.hover.enabled": true,
   "editor.renderControlCharacters": false,
-  "breadcrumbs.enabled": false,
-  "explorer.compactFolders": false,
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-  "editor.suggestSelection": "first",
-  "files.trimTrailingWhitespace": true,
-  "explorer.confirmDelete": true,
-  "telemetry.telemetryLevel": "off",
+  "editor.wordWrapColumn": 120,
+  "editor.lineHeight": 30,
+  "editor.cursorBlinking": "expand",
+  "editor.suggest.preview": true,
+  "editor.dragAndDrop": false,
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "editor.wordWrap": "bounded",
+  "editor.guides.bracketPairs": "active",
+  "editor.renderWhitespace": "none",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.linkedEditing": true,
+  "editor.stickyScroll.enabled": true,
+
+  // Terminal
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.fontWeightBold": "normal",
+  "terminal.integrated.fontFamily": "'MesloLGM NF'",
+  "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.gpuAcceleration": "on",
-  //
-  "workbench.editor.untitled.hint": "hidden",
-  "editor.wordWrap": "on",
-  "editor.wordWrapColumn": 100,
-  "editor.lineHeight": 30,
-  "editor.cursorBlinking": "expand",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+  // JavaScript and TypeScript Inlay Hints Settings
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "literals",
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "javascript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.suggest.completeFunctionCalls": true,
+
+  // Workbench & UI Theme
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "bearded-icons",
+
+  // File Management
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true
+    // "**/node_modules": true
+  },
+
+  // Explorer
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": true,
+
+  // Emmet
+  "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
     "vue-html": "html"
   },
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.suggest.preview": true,
+
+  // OTHERS
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.newWindowDimensions": "maximized",
+  "settingsSync.ignoredSettings": ["editor.fontSize", "editor.inlayHints.fontSize"],
+
+  // EXTENSIONS
+  // Git
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  // Markdown
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "markdown-preview-enhanced.liveUpdate": false,
+  // Github copilot
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
@@ -98,29 +110,53 @@
     "typescript": true,
     "javascriptreact": true
   },
-  "tabnine.experimentalAutoImports": true,
-  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "javascript.inlayHints.enumMemberValues.enabled": true,
-  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "javascript.inlayHints.parameterNames.enabled": "all",
-  "typescript.inlayHints.enumMemberValues.enabled": true,
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "javascript.inlayHints.parameterTypes.enabled": true,
-  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.hidesExplorerArrows": false,
+  // Thunder Client
   "thunder-client.codeSnippetLanguage": "cs-httpclient",
-  "workbench.colorTheme": "One Dark Pro Darker",
-  "editor.dragAndDrop": false,
-  "typescript.suggest.paths": false,
-  "javascript.suggest.paths": false,
-  "npm-intellisense.importES6": true,
-  "npm-intellisense.importQuotes": "'",
-  "npm-intellisense.importLinebreak": ";\r\n",
-  "npm-intellisense.importDeclarationType": "const",
-  // "npm-intellisense.scanDevDependencies": true,
+  // Html
   "htmltagwrap.tag": " ",
   "htmltagwrap.autoDeselectClosingTag": true,
-  "editor.stickyScroll.enabled": true,
-  "editor.fontSize": 16
+
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+
+  "template-string-converter.autoRemoveTemplateString": true,
+
+  "liveServer.settings.donotShowInfoMsg": true,
+  // React snippet
+  "reactSnippets.settings.importReactOnTop": false,
+  "reactSnippets.settings.prettierEnabled": true,
+  // Flutter - Dart
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "dart.previewFlutterUiGuides": true,
+  // Error lens
+  "errorLens.fontSize": "12",
+  "errorLens.fontStyleItalic": true,
+  "errorLens.gutterIconSize": "auto",
+  "errorLens.fontWeight": "500",
+  "errorLens.padding": "6px",
+  "errorLens.borderRadius": "4px",
+  "errorLens.statusBarMessageType": "closestSeverity",
+  "errorLens.statusBarCommand": "goToLine",
+  "errorLens.statusBarIconsEnabled": true,
+  "errorLens.statusBarColorsEnabled": true,
+  "errorLens.statusBarMessageEnabled": true,
+  "errorLens.messageBackgroundMode": "message",
+  "errorLens.gutterIconsEnabled": true,
+  // Prettier
+  "prettier.printWidth": 120,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  // Turbo ConsoleLog
+  "turboConsoleLog.insertEmptyLineAfterLogMessage": true,
+  "turboConsoleLog.quote": "`",
+  "turboConsoleLog.logMessagePrefix": "",
+  "turboConsoleLog.insertEmptyLineBeforeLogMessage": true,
+  // Code Spell Checker
+  "cSpell.language": "en,vi",
+  "cSpell.userWords": ["clsx", "roboto"],
+  // Console Ninja
+  "console-ninja.featureSet": "Community",
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server-extension": true
+  }
 }
